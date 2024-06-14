@@ -1,0 +1,62 @@
+name: Route Searcher
+version: 1.0.0
+id: reearth-plugin-route-searcher
+extensions:
+  - id: route-searcher
+    type: widget
+    name: Route Searcher
+    schema:
+      groups:
+        - id: customize
+          title: Customize
+          fields:
+            - id: color_theme
+              type: string
+              title: Color theme
+              choices:
+                - key: dark
+                  label: Dark
+                - key: light
+                  label: Light
+            - id: background_color
+              type: string
+              title: Background color
+              ui: color
+        - id: image
+          title: image
+          fields:
+            - id: start_thumbnail
+              type: url
+              title: スタート地点サムネイル
+              ui: file
+            - id: end_thumbnail
+              type: url
+              title: ゴール地点サムネイル
+              ui: file
+        - id: api
+          title: API
+          fields:
+            - id: server
+              type: string
+              title: サーバ
+            - id: parameter
+              type: string
+              title: パラメータ
+        - id: transportationList
+          title: 移動手段
+          list: true
+          fields:
+            - id: traffic
+              title: 交通
+              type: string
+              choices:
+                - key: car
+                  label: 自動車
+                - key: bike
+                  label: 自転車
+                - key: foot
+                  label: 徒歩
+            - id: color
+              title: Color
+              type: string
+              ui: color
