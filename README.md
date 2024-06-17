@@ -1,6 +1,6 @@
 # ルート検索プラグイン
+![Route-searcher-1](https://github.com/eukarya-inc/reearth-plugin-route-searcher/assets/53960439/3415e192-4e96-4ede-b692-21ea1559a0ef)
 
-![](src/routeSearcher.png)
 
 ## 概要
 
