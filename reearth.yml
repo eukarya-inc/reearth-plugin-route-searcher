@@ -1,4 +1,4 @@
-name: Route Searcher
+name: Route Search Plugin
 version: 1.0.0
 id: reearth-plugin-route-searcher
 extensions:
